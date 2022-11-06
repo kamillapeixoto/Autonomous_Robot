@@ -49,7 +49,7 @@ Hardware: Computer**
 
 [Find the "optimal" values to Q and R](Simulations_Matlab/main_lqt_ajuste.m)
 
-[Simulation](main_lqt.m)
+[Simulation](Simulations_Matlab/main_lqt.m)
 
 [Simulation with perturbation](Simulations_Matlab/main_lqt_perturb.m)
 
@@ -86,7 +86,7 @@ Hardware: Arduino Mega 2560**
 
 The robot speed is measured by encoders coupled directly on the motor shaft, and the measured data is used by the odometry algorithm to compute the robot current position and to predict the positionthe robot will be one cycle later based on the current wheel speed setpoint applied to the PI. This predicted position is sent back to the Raspberry PI, what closes a cycle.
 
-[Main](Impl_Arduino/PID_Odometria.ino)
+[Main](Impl_Arduino/PIDOdometria.ino)
 
 
 Used Libraries:
